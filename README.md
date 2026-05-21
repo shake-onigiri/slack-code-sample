@@ -23,7 +23,7 @@ source .venv/bin/activate
 プログラムを動作させるには、Slackの管理画面でアプリを作成し、適切な権限を付与してチャンネルへ招待する必要があります。
 
 ## ステップ 1-1: Slackアプリの新規作成
-1. ブラウザで Slack API 管理画面 にアクセスします。
+1. ブラウザで Slack API 管理画面 にアクセスします。[Slack APIはこちら](https://docs.slack.dev/)
 2. 画面右上にある 「Create New App」 ボタンをクリックします。
 3. ポップアップが表示されたら、「From scratch」 を選択します。
 4. 以下の項目を入力・選択します：
