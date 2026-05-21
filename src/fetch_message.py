@@ -9,7 +9,7 @@ from slack_sdk.errors import SlackApiError
 load_dotenv()
 
 SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN")
-SLACK_CHANNEL_ID = os.getenv("SLACK_CHANNEL_ID") # .envのスペル修正を忘れずに
+SLACK_CHANNEL_ID = os.getenv("SLACK_CHANNEL_ID") 
 
 if not SLACK_BOT_TOKEN or not SLACK_CHANNEL_ID:
     print("エラー: .env ファイルにトークンまたはチャンネルIDが設定されていません。")
