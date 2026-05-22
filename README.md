@@ -1,20 +1,3 @@
-
-# Python環境の構築
-
-## 仮想環境の作成
-```python
-# macOS / Linux / Windows 共通
-python -m venv .venv
-```
-
-## アクティベート
-
-Mac
-``` python
-source .venv/bin/activate
-```
-
-
 # Slack メッセージ取得ツール (get-slack-message)
 
 このツールは、指定したSlackチャンネルから過去30日分のメッセージ履歴を取得し、Markdown形式のファイルとして outputs/ ディレクトリに自動出力するPythonスクリプトです。
